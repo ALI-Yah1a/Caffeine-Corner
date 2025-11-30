@@ -165,3 +165,79 @@ h1, h2, h3, h4, h5, h6{
     object-fit: cover;
 
 }
+.menu-section{
+    background-color: #f9f8f5cc;
+    padding: 80px 20px;
+    font-family: 'inter', sans-serif;
+    justify-content: center;
+    width: 100%;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+.menu-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.menu-header h1{
+    font-size: 56px;
+    color: #32241b;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.menu-header p{
+    font-size: 22px;
+    color: #8a6f5c;
+}
+.menu-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+}
+.menu-card{
+    background-color: #fbfaf9;
+    border: 1px solid #e3dcd5;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.menu-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.card-content h3{
+    font-size: 26px;
+    color: #32241b;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.card-content p{
+    font-size: 18px;
+    color: #8a6f5c;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+.card-price{
+    font-size: 22px;
+    color: #d76742;
+    font-family: 'Crimson Pro', serif;
+    font-weight: 700;
+}
+.card-btn{
+    text-decoration: none;
+    color: #32241b;
+    font-weight: 500;
+    transition: 0.3s;
+    font-size: 16px;
+}
+.card-btn:hover{
+    color: #d76742;
+}
