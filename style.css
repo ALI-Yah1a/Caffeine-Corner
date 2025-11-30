@@ -241,3 +241,67 @@ h1, h2, h3, h4, h5, h6{
 .card-btn:hover{
     color: #d76742;
 }
+.contact-section{
+    background-color: #fff;
+    padding: 80px 20px;
+    font-family: 'inter', sans-serif;
+    justify-content: center;
+    width: 100%;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+.contact-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact-header h1{
+    font-size: 56px;
+    color: #32241b;
+    margin:0;
+    font-weight: 800;
+}
+.contact-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+.contact-card{
+    background-color: #f9f8f5;
+    border: 1px solid #e3dcd5;
+    border-radius: 12px;
+    padding: 40px 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.contact-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.contact-card i{
+    font-size: 72px; 
+    color: #d76742;
+    margin-bottom: 20px;
+}
+.contact-card h2{
+    font-size: 36px;
+    color: #32241b;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+.contact-card p{
+    font-size: 20px;
+    color: #8a6f5c;
+    line-height: 1.6;
+    margin: 0;
+}
+.contact-card a{
+    text-decoration: none;
+    color: #8a6f5c;
+    transition: 0.3s;
+}
+.contact-card a:hover{
+    color: #d76742;
+}
