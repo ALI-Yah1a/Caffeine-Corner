@@ -6,6 +6,9 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Crimson Pro', serif;
+}
 .navbar{
     position: fixed;
     display: flex;
@@ -43,3 +46,62 @@
 .navs a:hover{
     color: #d76742;
 }
+.home-section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(256, 256, 256, 0.4);
+    backdrop-filter: blur(6px);
+}
+.home-content{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.home-content h1{
+    font-size: 90px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #32241b;
+    line-height: 1.1;
+    margin-bottom: 24px;
+}
+.home-content p{
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #7c4e2e;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+.home-btn{
+    display: inline-flex;
+    background-color: #d76742;
+    color: #fff;
+    padding: 20px 48px;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    border-radius: 48px;
+    transition: 0.3s;
+}
+.home-btn:hover{
+    background-color: transparent;
+    color: #d76742;
+    border: 4px solid #d76742;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 22px 52px;
+}
+
